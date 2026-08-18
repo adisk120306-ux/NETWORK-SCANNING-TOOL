@@ -1,0 +1,6 @@
+Aug 18 10:00 sshd: Failed password for admin from 192.168.1.20
+Aug 18 10:01 sshd: Failed password for admin from 192.168.1.20
+Aug 18 10:02 sshd: Accepted password for user from 192.168.1.15
+192.168.1.20 - - "GET /admin HTTP/1.1" 404
+192.168.1.15 - - "GET / HTTP/1.1" 200
+192.168.1.20 - - "GET /test HTTP/1.1" 500

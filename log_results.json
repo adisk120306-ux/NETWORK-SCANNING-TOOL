@@ -1,0 +1,43 @@
+{
+  "file": "test.log",
+  "analyzed_at": "2026-08-18T05:26:17.414336",
+  "total_lines": 6,
+  "failed_logins": 2,
+  "successful_logins": 1,
+  "top_failed_ips": [
+    [
+      "192.168.1.20",
+      2
+    ]
+  ],
+  "top_successful_ips": [
+    [
+      "192.168.1.15",
+      1
+    ]
+  ],
+  "top_ips": [
+    [
+      "192.168.1.20",
+      4
+    ],
+    [
+      "192.168.1.15",
+      2
+    ]
+  ],
+  "http_status_codes": [
+    [
+      "404",
+      1
+    ],
+    [
+      "200",
+      1
+    ],
+    [
+      "500",
+      1
+    ]
+  ]
+}

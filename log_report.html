@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log Analyzer Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: #f9fafb;
+    margin: 40px;
+}
+
+.card {
+    background: #1f2937;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #374151;
+    text-align: left;
+}
+
+th {
+    color: #60a5fa;
+}
+
+.warning {
+    color: #f87171;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Log Analyzer Report</h1>
+
+<div class="card">
+<h2>Summary</h2>
+<p>File: test.log</p>
+<p>Lines analyzed: 6</p>
+<p>Failed logins: <span class="warning">2</span></p>
+<p>Successful logins: 1</p>
+</div>
+
+<div class="card">
+<h2>Top IP Addresses</h2>
+<table>
+<tr><th>IP Address</th><th>Occurrences</th></tr>
+<tr><td>192.168.1.20</td><td>4</td></tr><tr><td>192.168.1.15</td><td>2</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>Failed Login Sources</h2>
+<table>
+<tr><th>IP Address</th><th>Failures</th></tr>
+<tr><td>192.168.1.20</td><td>2</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>HTTP Status Codes</h2>
+<table>
+<tr><th>Status</th><th>Count</th></tr>
+<tr><td>404</td><td>1</td></tr><tr><td>200</td><td>1</td></tr><tr><td>500</td><td>1</td></tr>
+</table>
+</div>
+
+</body>
+</html>
